@@ -19,11 +19,12 @@ $ npm install --save-dev eslint eslint-plugin-commonjs
 All rules are off by default. However, you may configure them manually in your .eslintrc.(yml|json|js).
 
 ```yaml
----
+env:
+  node: true
+
 plugins:
   - commonjs
 
 rules:
   commonjs/no-duplicate-exports: 2
-  # etc...
 ```
