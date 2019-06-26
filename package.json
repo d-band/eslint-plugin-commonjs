@@ -1,0 +1,45 @@
+{
+  "name": "eslint-plugin-commonjs",
+  "version": "1.0.0",
+  "description": "Additional ESLint's rules for commonjs",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "nyc mocha --no-timeouts",
+    "report": "nyc report --reporter=html",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls"
+  },
+  "nyc": {
+    "include": [
+      "lib/**/*.js"
+    ],
+    "sourceMap": false
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d-band/eslint-plugin-commonjs.git"
+  },
+  "keywords": [
+    "commonjs",
+    "duplicate",
+    "exports",
+    "eslint"
+  ],
+  "author": "d-band",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/d-band/eslint-plugin-commonjs/issues"
+  },
+  "homepage": "https://github.com/d-band/eslint-plugin-commonjs#readme",
+  "devDependencies": {
+    "coveralls": "^3.0.4",
+    "eslint": "^6.0.1",
+    "mocha": "^6.1.4",
+    "nyc": "^14.1.1"
+  },
+  "dependencies": {
+    "eslint-utils": "^1.3.1"
+  },
+  "peerDependencies": {
+    "eslint": ">=5.16.0"
+  }
+}
