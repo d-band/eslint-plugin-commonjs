@@ -34,7 +34,7 @@
     "coveralls": "^3.0.4",
     "eslint": "^6.0.1",
     "mocha": "^6.1.4",
-    "nyc": "^14.1.1"
+    "nyc": "^15.0.0"
   },
   "dependencies": {
     "eslint-utils": "^1.3.1"
