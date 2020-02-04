@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-commonjs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Additional ESLint's rules for commonjs",
   "main": "lib/index.js",
   "scripts": {
